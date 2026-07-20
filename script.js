@@ -8,4 +8,8 @@ function blurSite() {
     return true;
 }
 
+function unblurWebsite() {
+    document.querySelector("div#cover").computedStyleMap.display = "none";
+}
+
 blurSite();

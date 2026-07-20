@@ -9,7 +9,7 @@ function blurSite() {
 }
 
 function unblurWebsite() {
-    document.querySelector("div#cover").computedStyleMap.display = "none";
+    document.querySelector("div#cover").style.display = "none";
     console.log("Succesfully removed the cover!")
 }
 

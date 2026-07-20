@@ -10,6 +10,7 @@ function blurSite() {
 
 function unblurWebsite() {
     document.querySelector("div#cover").computedStyleMap.display = "none";
+    console.log("Succesfully removed the cover!")
 }
 
 blurSite();

@@ -67,6 +67,7 @@ function main() {
     document.querySelector("button#ranks-btn").addEventListener("click", () => { showBox("ranks"); });
     document.querySelector("button#gallery-btn").addEventListener("click", () => { showBox("gallery"); });
     document.querySelector("button#bstIdeas-btn").addEventListener("click", () => { showBox("bstIdeas"); });
+    document.querySelector("button#mail-btn").addEventListener("click", () => { window.location.href ="mailto:craftinghacksbluestone@gmail.com"; });
     loadImages();
     hideAllBox();
     laodPlayers();

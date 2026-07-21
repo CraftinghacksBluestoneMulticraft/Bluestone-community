@@ -1,0 +1,148 @@
+{
+    "players": [
+        {
+            "name": "Craftinghacks",
+            "rank": "HT1",
+            "builds": "LB-CA LB-BD LB-GA LB-TI PD-PD",
+            "country": "EUROPE -- NETHERLANDS"
+        },
+        {
+            "name": "Namissrea",
+            "rank": "HT1",
+            "builds": "LB-CA LB-CP LB-TI PD-PD",
+            "country": "ASIA -- VIETNAM"
+        },
+        {
+            "name": "Ryan-Lee",
+            "rank": "HT1",
+            "builds": "LB-CA LB-TI PD-EX PD-PD",
+            "country": "ASIA -- MALAYSIA"
+        },
+        {
+            "name": "MasterBee",
+            "rank": "HT1",
+            "builds": "LB-GA PD-PD",
+            "country": "ASIA -- VIETNAM"
+        },
+        {
+            "name": "Crow",
+            "rank": "HT1",
+            "builds": "PD-PD LB-BD LB-TI LB-GA",
+            "country": "USA -- AMERICA"
+        },
+        {
+            "name": "ThePigGaming1",
+            "rank": "HT1",
+            "builds": "LB-CP PD-PD",
+            "country": "USA"
+        },
+        {
+            "name": "V3ng3anc3",
+            "rank": "HT1 CODING",
+            "builds": "PROGRAMS, WEBSITES, METADATA",
+            "country": "EUROPE -- ITALY"
+        },
+        {
+            "name": "Fred",
+            "rank": "LT1",
+            "builds": "LB-CA LB-GA LB-TI",
+            "country": "AFRICA -- SOUTH-AFRICA"
+        },
+        {
+            "name": "The_real_wael",
+            "rank": "LT1",
+            "builds": "FM-EL LB-TI",
+            "country": "X"
+        },
+        {
+            "name": "bo_the_owner",
+            "rank": "LT1",
+            "builds": "LB-GA PD-EX",
+            "country": "ASIA -- TURKEY"
+        },
+        {
+            "name": "mtpyo",
+            "rank": "LT1",
+            "builds": "PD-PD LB-CA",
+            "country": "ASIA -- VIETNAM"
+        },
+        {
+            "name": "demon1234",
+            "rank": "LT1",
+            "builds": "CALC-PSTN",
+            "country": "ASIA -- VIETNAM"
+        },
+        {
+            "name": "Cole",
+            "rank": "LT1",
+            "builds": "LB-BD",
+            "country": "EUROPE -- BELGIUM"
+        },
+        {
+            "name": "Kerooo",
+            "rank": "LT1",
+            "builds": "LB-CA",
+            "country": "EUROPE -- TURKEY"
+        },
+        {
+            "name": "Terminaluzzo",
+            "rank": "HT2",
+            "builds": "LB-CP FM-WR",
+            "country": "EUROPE -- ITALY"
+        },
+        {
+            "name": "nertinas",
+            "rank": "HT2",
+            "builds": "LB-CA",
+            "country": "EUROPE BELARUS"
+        },
+        {
+            "name": "Studying",
+            "rank": "LT2",
+            "builds": "LB-BD LB-TI FM-WR PD-TR",
+            "country": "ASIA -- VIETNAM"
+        },
+        {
+            "name": "Quark",
+            "rank": "LT2",
+            "builds": "PD-TR",
+            "country": "EUROPE -- BELARUS"
+        },
+        {
+            "name": "Fowisnay",
+            "rank": "LT2",
+            "builds": "LB-CA LB-CP",
+            "country": "X"
+        },
+        {
+            "name": "sierpinskicarpet",
+            "rank": "LT2",
+            "builds": "PD-PD LB-CA",
+            "country": "ASIA -- VIETNAM"
+        },
+        {
+            "name": "Franz_liszt",
+            "rank": "LT2",
+            "builds": "PD-PD LB-CA",
+            "country": "ASIA -- VIETNAM"
+        },
+        {
+            "name": "Minh_OG",
+            "rank": "HT3",
+            "builds": "FP-??",
+            "country": "ASIA -- VIETNAM"
+        },
+        {
+            "name": "rays",
+            "rank": "HT3",
+            "builds": "FP-FM",
+            "country": "X"
+        },
+        {
+            "name": "-_ROPE_-",
+            "rank": "LT3",
+            "builds": "X",
+            "country": "X"
+        }
+    ]
+}

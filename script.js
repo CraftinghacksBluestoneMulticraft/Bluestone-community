@@ -13,4 +13,49 @@ function unblurWebsite() {
     console.log("Succesfully removed the cover!")
 }
 
+async function loadData() {
+    const response = await fetch("data.json");
+    const data = await response.json();
+    return data;
+}
+
+async function laodPlayers() {
+    const data = await loadData();
+    const players = data.players;
+    players.forEach((p) => {
+        let row = `
+        <tr>
+            <td>${p.name}</td>
+            <td>${p.rank}</td>
+            <td>${p.builds}</td>
+            <td>${p.country}</td>
+        </tr>
+    `;
+        document.querySelector("table#player-list").innerHTML += row;
+    });
+    document.querySelectorAll("table#player-list>tbody>tr").forEach(row => {
+        const secondCell = row.querySelector("td:nth-child(2)");
+
+        if (secondCell) {
+            if (secondCell.textContent.includes("HT1")) {
+                secondCell.style.background = "gold";
+                secondCell.style.fontWeight = "bold";
+            }
+        }
+    });
+}
+
+function hideAllBox() {
+    document.querySelectorAll("section.content-box").forEach((e) => {e.style.display = "none";});
+}
+
+function showBox(id) {
+    hideAllBox();
+    document.querySelector(`section#${id}`).style.display = "block";
+}
+const rankBtn = document.querySelector("button#ranks-btn");
+rankBtn.addEventListener("click", () => { showBox("ranks"); });
+
+hideAllBox();
+laodPlayers();
 blurSite();

@@ -5,29 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bluestone community</title>
     <link rel="icon" href="images/logo.png" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="title-box">
-        <h1 id="site-title">
-            <img src="images/logo.png" alt="logo">
-            BLUESTONE COMMUNITY
-            <img src="images/logo.png" alt="logo">
-        </h1>
+      <h1 id="site-title">
+        <img src="images/logo.png" alt="logo" />
+        BLUESTONE COMMUNITY
+        <img src="images/logo.png" alt="logo" />
+      </h1>
     </div>
     <nav id="nav-box">
-        <button>Best bluestoners</button>
-        <button>Youtube channels</button>
-        <button>Multicraft and discord server</button>
-        <button>Bluestone ideas</button>
-        <button>Gallery</button>
+      <button>Best bluestoners</button>
+      <button>Youtube channels</button>
+      <button>Multicraft and discord server</button>
+      <button>Bluestone ideas</button>
+      <button>Gallery</button>
+      <button id="ranks-btn">Ranks</button>
     </nav>
     <div id="content">
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+      <section class="content-box"></section>
+      <section class="content-box"></section>
+      <section class="content-box"></section>
+      <section class="content-box"></section>
+      <section class="content-box"></section>
+      <section id="ranks" class="content-box">
+        <div id="ranking-sys">
+          <h2>Bluestone Ranking system</h2>
+          <h3>Overview</h3>
+          <p>
+            The Bluestone Ranking System is a formally recognized classification
+            framework established and maintained by the Bluestone community.
+            Progression through the ranks requires active participation and
+            testing within the Bluestone community infrastructure.
+          </p>
+          <h3>Rank Structure</h3>
+          <p>
+            The ranking hierarchy extends from LT5 (lowest tier) to HT1 (highest
+            tier). Players who exceed the maximum ranking threshold are
+            designated as ORS (Over Ranking System) members, representing those
+            who have transcended the standard classification boundaries.
+          </p>
+          <h3>Testing Categories</h3>
+          <p>
+            Advancement through the ranking system is evaluated across four
+            specialized disciplines within Bluestone engineering:
+          </p>
+          <table id="rank-table">
+            <tr>
+              <th>Category</th>
+              <th>Abbreviation</th>
+              <th>Focus Area</th>
+            </tr>
+            <tr>
+              <td>Logical Bluestone</td>
+              <td>LO</td>
+              <td>Computational logic systems and digital mechanisms</td>
+            </tr>
+            <tr>
+              <td>Farm and Pipeworks</td>
+              <td>FP</td>
+              <td>Automated farming systems and resource pipelines</td>
+            </tr>
+            <tr>
+              <td>Piston Doors</td>
+              <td>PD</td>
+              <td>Mechanical door systems and piston-based constructions</td>
+            </tr>
+            <tr>
+              <td>Flying Machines and Movestone</td>
+              <td>FM</td>
+              <td>
+                Aerial transportation systems and mobile stone contraptions
+              </td>
+            </tr>
+          </table>
+          <h3>Testing Process</h3>
+          <p>
+            Candidates pursuing rank advancement select one or more categories
+            in which they wish to be evaluated. Each test is conducted within
+            the chosen discipline, allowing members to specialize in particular
+            domains or achieve comprehensive mastery across all four categories
+          </p>
+        </div>
+        <div id="rank-players">
+          <table id="player-list">
+            <tr>
+              <th>Playername</th>
+              <th>Rank</th>
+              <th>Builds</th>
+              <th>Country</th>
+            </tr>
+          </table>
+        </div>
+      </section>
     </div>
     <script src="script.js"></script>
   </body>

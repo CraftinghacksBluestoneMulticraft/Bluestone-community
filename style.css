@@ -1,7 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Orbitron:wght@500;700;900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: black;
+
+}
+
+h1 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+h4,
+h5,
+h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+p,
+li,
+span,
+label {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+small {
+    font-size: 14px;
+    opacity: .8;
+}
+
+nav,
+nav a {
+    font-family: "Orbitron", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+    font-family: "Orbitron", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+input,
+textarea,
+select {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+}
+
+table {
+    font-family: "Inter", sans-serif;
+    border-collapse: collapse;
+}
+
+th {
+    font-family: "Orbitron", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+td {
+    font-size: 17px;
+}
+
+code,
+pre,
+.build-name {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+}
+
+a {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+::selection {
+    background: #4db3ff;
+    color: white;
+}
+
+
+/*main*/
+
 div#title-box {
     display: flex;
-    font-family: 'Orbitron', sans-serif;
     place-self: center;
     background: radial-gradient(white, blue);
     padding: 20px;
@@ -47,5 +159,20 @@ nav#nav-box>button:active {
     transition: all 0.05s ease;
     transform: translateY(5px);
     box-shadow: 0 0 5px black;
+}
+
+table#player-list>tbody>tr>th,
+table#player-list>tbody>tr>td {
+    padding:10px;
+    background: linear-gradient(to right, gray, white, gray);
+    text-align: center;
+    margin: 0;
+}
+
+table#rank-table>tbody>tr>th,
+table#rank-table>tbody>tr>td {
+    padding: 5px;
+    text-align: center;
+    border: black solid 1px;
 }
 

@@ -62,9 +62,14 @@ function showBox(id) {
     hideAllBox();
     document.querySelector(`section#${id}`).style.display = "block";
 }
-document.querySelector("button#ranks-btn").addEventListener("click", () => { showBox("ranks"); });
-document.querySelector("button#gallery-btn").addEventListener("click", () => { showBox("gallery"); });
-loadImages();
-hideAllBox();
-laodPlayers();
-blurSite();
+
+function main() {
+    document.querySelector("button#ranks-btn").addEventListener("click", () => { showBox("ranks"); });
+    document.querySelector("button#gallery-btn").addEventListener("click", () => { showBox("gallery"); });
+    loadImages();
+    hideAllBox();
+    laodPlayers();
+    blurSite();
+}
+
+main();

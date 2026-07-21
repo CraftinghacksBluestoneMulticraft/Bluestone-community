@@ -6,7 +6,8 @@ body {
     font-size: 18px;
     line-height: 1.7;
     font-weight: 400;
-    color: black;
+    color: lightblue;
+    background: #071A2B;
 
 }
 
@@ -119,6 +120,7 @@ div#title-box {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px;
+    color: darkblue;
 }
 
 div#title-box>h1#site-title>img {
@@ -137,6 +139,7 @@ nav#nav-box {
     border-radius: 10px;
     margin-top: 10px;
     justify-content: space-around;
+    margin-bottom: 10px;
 }
 
 nav#nav-box>button {
@@ -167,6 +170,7 @@ table#player-list>tbody>tr>td {
     background: linear-gradient(to right, gray, white, gray);
     text-align: center;
     margin: 0;
+    color: darkblue;
 }
 
 table#rank-table>tbody>tr>th,
@@ -185,3 +189,17 @@ div#gallery-box {
     line-height: 0;
 }
 
+textarea,
+input {
+    font-size: large;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+section {
+    place-self: center;
+}
+
+section#bstIdeas {
+    text-align: center;
+}

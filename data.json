@@ -144,5 +144,12 @@
             "builds": "X",
             "country": "X"
         }
+    ],
+    "accepted_requests": [
+        {
+            "playername": "Craftinghacks",
+            "title": "Request",
+            "text": "I hope to see more requests soon!!"
+        }
     ]
 }

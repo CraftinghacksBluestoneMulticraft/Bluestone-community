@@ -66,10 +66,10 @@ function showBox(id) {
 function main() {
     document.querySelector("button#ranks-btn").addEventListener("click", () => { showBox("ranks"); });
     document.querySelector("button#gallery-btn").addEventListener("click", () => { showBox("gallery"); });
+    document.querySelector("button#bstIdeas-btn").addEventListener("click", () => { showBox("bstIdeas"); });
     loadImages();
     hideAllBox();
     laodPlayers();
-    blurSite();
 }
 
 main();

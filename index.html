@@ -19,7 +19,7 @@
       <button>Best bluestoners</button>
       <button>Youtube channels</button>
       <button>Multicraft and discord server</button>
-      <button>Bluestone ideas</button>
+      <button id="bstIdeas-btn">Bluestone ideas</button>
       <button id="gallery-btn">Gallery</button>
       <button id="ranks-btn">Ranks</button>
     </nav>
@@ -27,11 +27,17 @@
       <section class="content-box"></section>
       <section class="content-box"></section>
       <section class="content-box"></section>
-      <section class="content-box"></section>
+      <section class="content-box" id="bstIdeas">
+        <h2>Bluestone ideas/contact</h2>
+        <form action="https://formsubmit.co/craftinghacksbluestone@gmail.com" method="POST">
+            <input type="text" placeholder="playername..." required><br>
+            <input type="text" placeholder="title request..." required><br>
+            <textarea name="request" id="request" rows="10" cols="50" placeholder="Details..." required></textarea><br>
+            <button type="submit">Send request</button>
+        </form>
+      </section>
       <section class="content-box" id="gallery">
-        <div id="gallery-box">
-
-        </div>
+        <div id="gallery-box"></div>
       </section>
       <section id="ranks" class="content-box">
         <div id="ranking-sys">

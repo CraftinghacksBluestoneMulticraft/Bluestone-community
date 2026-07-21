@@ -24,13 +24,13 @@ async function laodPlayers() {
     const players = data.players;
     players.forEach((p) => {
         let row = `
-        <tr>
-            <td>${p.name}</td>
-            <td>${p.rank}</td>
-            <td>${p.builds}</td>
-            <td>${p.country}</td>
-        </tr>
-    `;
+            <tr>
+                <td>${p.name}</td>
+                <td>${p.rank}</td>
+                <td>${p.builds}</td>
+                <td>${p.country}</td>
+            </tr>
+         `;
         document.querySelector("table#player-list").innerHTML += row;
     });
     document.querySelectorAll("table#player-list>tbody>tr").forEach(row => {

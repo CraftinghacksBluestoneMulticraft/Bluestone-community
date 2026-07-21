@@ -71,6 +71,7 @@ function main() {
     loadImages();
     hideAllBox();
     laodPlayers();
+    showBox("gallery");
 }
 
 main();

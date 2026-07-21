@@ -176,3 +176,12 @@ table#rank-table>tbody>tr>td {
     border: black solid 1px;
 }
 
+div#gallery-box>img {
+    width: 49%;
+    margin: 0;
+    border: black solid 1px;
+}
+div#gallery-box {
+    line-height: 0;
+}
+

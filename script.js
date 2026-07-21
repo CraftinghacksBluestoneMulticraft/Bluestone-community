@@ -45,6 +45,15 @@ async function laodPlayers() {
     });
 }
 
+function loadImages() {
+    const galleryBox = document.querySelector("div#gallery-box");
+    for (let i = 1; i < 19; i++) {
+        let im = `gallery/im (${i}).jpeg`;
+        let image = `<img src='${im}' alt='image-${i}'>`;
+        galleryBox.innerHTML += image;
+    }
+}
+
 function hideAllBox() {
     document.querySelectorAll("section.content-box").forEach((e) => {e.style.display = "none";});
 }
@@ -53,9 +62,8 @@ function showBox(id) {
     hideAllBox();
     document.querySelector(`section#${id}`).style.display = "block";
 }
-const rankBtn = document.querySelector("button#ranks-btn");
-rankBtn.addEventListener("click", () => { showBox("ranks"); });
-
+document.querySelector("button#ranks-btn").addEventListener("click", () => { showBox("ranks"); });
+document.querySelector("button#gallery-btn").addEventListener("click", () => { showBox("gallery"); });
+loadImages();
 hideAllBox();
 laodPlayers();
-blurSite();

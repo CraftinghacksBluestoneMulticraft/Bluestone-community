@@ -67,3 +67,4 @@ document.querySelector("button#gallery-btn").addEventListener("click", () => { s
 loadImages();
 hideAllBox();
 laodPlayers();
+blurSite();

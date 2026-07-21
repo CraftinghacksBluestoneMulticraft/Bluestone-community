@@ -1,6 +1,29 @@
-/*fonts*/
+/*imports*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Orbitron:wght@500;700;900&display=swap');
+@keyframes move_in {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    25% {
+        opacity: 0.25;
+        transform: translateY(-30px);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(-20px);
+    }
+    75% {
+        opacity: 0.75;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 
+/*fonts*/
 body {
     font-family: "Inter", sans-serif;
     font-size: 18px;
@@ -8,6 +31,7 @@ body {
     font-weight: 400;
     color: lightblue;
     background: #071A2B;
+    animation: move_in 0.2s ease;
 
 }
 
@@ -112,7 +136,6 @@ a {
 
 
 /*main*/
-
 div#title-box {
     display: flex;
     place-self: center;
@@ -140,6 +163,8 @@ nav#nav-box {
     margin-top: 10px;
     justify-content: space-around;
     margin-bottom: 10px;
+    position: sticky;
+    top: 5px;
 }
 
 nav#nav-box>button {
@@ -198,6 +223,7 @@ input {
 
 section {
     place-self: center;
+    animation: move_in 0.1s ease
 }
 
 section#bstIdeas {

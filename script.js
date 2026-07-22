@@ -61,6 +61,22 @@ async function loadServers() {
     });
 }
 
+async function loadRequests(){
+    data = await loadData();
+    requests = data['accepted_requests'];
+    reqLoc = document.querySelector("div#acc-requests")
+    requests.forEach((r) => {
+        let req = `
+            <div class=reqs>
+                <h3>${r.title}</h3>
+                <p class='playername'>${r.playername}</p>
+                <p class='descr'>${r.text}</p>
+            </div>
+        `;
+        reqLoc.innerHTML += req;
+    });
+}
+
 function loadImages() {
     const galleryBox = document.querySelector("div#gallery-box");
     for (let i = 1; i < 19; i++) {
@@ -90,6 +106,7 @@ function main() {
     hideAllBox();
     laodPlayers();
     loadServers();
+    loadRequests();
     showBox("gallery");
 }
 

@@ -263,3 +263,17 @@ section#mc-dc-server {
 #dc-btn::before {
     content: "💬 ";
 }
+
+table#server-list>tbody>tr>td,
+table#server-list>tbody>tr>th {
+    background: darkblue;
+    padding: 10px;
+    border: black solid 1px;
+}
+
+div#mc-servers {
+    padding: 20px;
+    background: blue;
+    border-radius: 10px;
+    box-shadow: 0 0 20px blue;
+}

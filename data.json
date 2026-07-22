@@ -182,6 +182,11 @@
             "code": "T88EP1P3",
             "description": "Old RHS with bluestone area",
             "builds": "Craftinghacks public point: BAND V4b"
+        },
+        {
+            "code": "1XLCI84L",
+            "description": "Oldstone project area BCrow",
+            "builds": "BCrow public point: BAND -- TICTACTOE -- TIMER -- RPC"
         }
     ]
 }

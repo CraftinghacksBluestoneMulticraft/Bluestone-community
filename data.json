@@ -151,5 +151,37 @@
             "title": "Request",
             "text": "I hope to see more requests soon!!"
         }
+    ],
+    "multicraft_servers": [
+        {
+            "code": "ZAMXDO07",
+            "description": "Official Bluestone Community Server",
+            "builds": "BLADE V1 -- CPU -- SAND-SIMULATOR"
+        },
+        {
+            "code": "YILQUC4Z",
+            "description": "Old Bluestone Project Server",
+            "builds": "BAND (V1-V2-V3-V4a)"
+        },
+        {
+            "code": "MCSRVRXR",
+            "description": "VoxelCraft (public point BCrow)",
+            "builds": "BCrow builds: 7x7 piston door -- BAND -- Games"
+        },
+        {
+            "code": "MCSRVR03",
+            "description": "Old server with Oldstone builds",
+            "builds": "Freeland public point: BAND without mods"
+        },
+        {
+            "code": "IOVPFHVO",
+            "description": "Global server with bluestone area",
+            "builds": "Craftinghacks public point: BAND V6 mini -- fast ADD calc -- 4-func-CALC-BIN"
+        },
+        {
+            "code": "T88EP1P3",
+            "description": "Old RHS with bluestone area",
+            "builds": "Craftinghacks public point: BAND V4b"
+        }
     ]
 }

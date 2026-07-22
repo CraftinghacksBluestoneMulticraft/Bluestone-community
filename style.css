@@ -136,6 +136,9 @@ a {
 
 
 /*main*/
+button:hover {
+    cursor: pointer;
+}
 div#title-box {
     display: flex;
     place-self: center;
@@ -223,9 +226,40 @@ input {
 
 section {
     place-self: center;
-    animation: move_in 0.1s ease
+    animation: move_in 0.1s ease;
+    display: flex;
 }
 
 section#bstIdeas {
     text-align: center;
+}
+section#mc-dc-server {
+    text-align: center;
+}
+#dc-btn {
+    background: linear-gradient(135deg, #5865F2, #4752C4);
+    color: white;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Segoe UI", sans-serif;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(88, 101, 242, 0.35);
+    transition: all 0.25s ease;
+    margin-top: 25px;
+}
+
+#dc-btn:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 12px 28px rgba(88, 101, 242, 0.55);
+}
+
+#dc-btn:active {
+    transform: translateY(2px) scale(0.98);
+}
+
+#dc-btn::before {
+    content: "💬 ";
 }

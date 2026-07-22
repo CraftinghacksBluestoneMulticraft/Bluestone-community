@@ -45,6 +45,22 @@ async function laodPlayers() {
     });
 }
 
+async function loadServers() {
+    const data = await loadData();
+    const serverList = document.querySelector("table#server-list");
+    const servers = data['multicraft_servers'];
+    servers.forEach((s) => {
+        let server = `
+            <tr>
+                <td>${s.code}</td>
+                <td>${s.description}</td>
+                <td>${s.builds}</td>
+            </tr>
+        `;
+        serverList.innerHTML += server;
+    });
+}
+
 function loadImages() {
     const galleryBox = document.querySelector("div#gallery-box");
     for (let i = 1; i < 19; i++) {
@@ -71,7 +87,9 @@ function main() {
     loadImages();
     hideAllBox();
     laodPlayers();
+    loadServers();
     showBox("gallery");
 }
 
-main();
+hideAllBox();
+showBox("mc-dc-server");

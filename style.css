@@ -201,6 +201,10 @@ table#player-list>tbody>tr>td {
     color: darkblue;
 }
 
+table#player-list {
+    place-self: center;
+}
+
 table#rank-table>tbody>tr>th,
 table#rank-table>tbody>tr>td {
     padding: 5px;

@@ -92,5 +92,4 @@ function main() {
     blurSite();
 }
 
-hideAllBox();
-showBox("mc-dc-server");
+main();

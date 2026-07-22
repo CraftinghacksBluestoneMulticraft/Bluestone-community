@@ -84,6 +84,7 @@ function main() {
     document.querySelector("button#gallery-btn").addEventListener("click", () => { showBox("gallery"); });
     document.querySelector("button#bstIdeas-btn").addEventListener("click", () => { showBox("bstIdeas"); });
     document.querySelector("button#mc-dc-server-btn").addEventListener("click", () => { showBox("mc-dc-server"); });
+    document.querySelector("button#nav-yt-btn").addEventListener("click", () => { showBox("yt-box"); });
     document.querySelector("button#mail-btn").addEventListener("click", () => { window.location.href ="mailto:craftinghacksbluestone@gmail.com"; });
     loadImages();
     hideAllBox();

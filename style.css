@@ -277,3 +277,61 @@ div#mc-servers {
     border-radius: 10px;
     box-shadow: 0 0 20px blue;
 }
+
+.yt-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 14px 28px;
+    margin: 10px;
+
+    background: linear-gradient(135deg, #ff0000, #cc0000);
+    color: #fff;
+
+    border: none;
+    border-radius: 12px;
+
+    font-family: "Segoe UI", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.35);
+
+    transition: all 0.25s ease;
+}
+
+.yt-btn::before {
+    content: "▶";
+    font-size: 20px;
+    color: white;
+}
+
+.yt-btn:hover {
+    background: linear-gradient(135deg, #ff1a1a, #e60000);
+    transform: translateY(-4px) scale(1.04);
+    box-shadow: 0 12px 28px rgba(255, 0, 0, 0.55);
+}
+
+.yt-btn:active {
+    transform: translateY(2px) scale(0.98);
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.4);
+}
+
+.yt-btn:focus {
+    outline: none;
+    box-shadow:
+        0 0 0 4px rgba(255, 0, 0, 0.2),
+        0 12px 28px rgba(255, 0, 0, 0.5);
+}
+
+div#yt-btn-box {
+    background:rgba(88, 101, 242, 0.55);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px red;
+    margin-top: 50px;
+}

@@ -89,6 +89,7 @@ function main() {
     laodPlayers();
     loadServers();
     showBox("gallery");
+    blurSite();
 }
 
 hideAllBox();

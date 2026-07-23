@@ -150,6 +150,11 @@
             "playername": "Craftinghacks",
             "title": "Request",
             "text": "I hope to see more requests soon!!"
+        },
+        {
+            "playername": "hellbreaker",
+            "title": "machine",
+            "text": "i rlly want a machine that uses a display to track a player\u2019s position, for example, if the player is right beside the screen, the screen puts a light on the position of the player"
         }
     ],
     "multicraft_servers": [

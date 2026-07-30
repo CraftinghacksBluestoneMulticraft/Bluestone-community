@@ -5,7 +5,6 @@ function blurSite() {
     </div>
     `;
     document.querySelector("body").innerHTML += htmlElement;
-    return true;
 }
 
 function unblurWebsite() {

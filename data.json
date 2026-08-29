@@ -192,6 +192,11 @@
             "code": "1XLCI84L",
             "description": "Oldstone project area BCrow",
             "builds": "BCrow public point: BAND -- TICTACTOE -- TIMER -- RPC"
+        },
+        {
+            "code": "NQJEOXBU",
+            "description": "Craftinghacks first big projects here!",
+            "builds": "Craftinghacks first BAND and CALC"
         }
     ]
 }
